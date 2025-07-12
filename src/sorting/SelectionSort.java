@@ -8,7 +8,7 @@ public class SelectionSort {
         int size = array.length;
         int temp = 0;
         int minIndex = -1;
-        int iteration=0;
+        int iteration = 0;
 
         //outer loops
         for (int i = 0; i < size - 1; i++) {
@@ -21,7 +21,7 @@ public class SelectionSort {
                 if (array[minIndex] > array[j]) {
                     minIndex = j;
                 }
-                System.out.println("number of iterations : "+ iteration);
+                System.out.println("number of iterations : " + iteration);
 
             }
 

@@ -1,6 +1,7 @@
 import searching.BinarySearch;
 import searching.LinearSearch;
 import sorting.BubbleSorting;
+import sorting.InsertionSort;
 import sorting.SelectionSort;
 
 public class Main {
@@ -15,7 +16,9 @@ public class Main {
         System.out.println(binarySearch.binary(nums, 6));
         // sorting
 //        bubbleSorting.bubbleSort(nums);
-        selectionSort.selectionSort(nums);
+//        selectionSort.selectionSort(nums);
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.insertionSort(nums);
     }
 
 }
